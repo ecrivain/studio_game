@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-
-require '../lib/studio_game/game'
-require '../lib/studio_game/clumsy_player'
-require '../lib/studio_game/lib/studio_game/berserk_player'
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'studio_game/game'
+require 'studio_game/clumsy_player'
+require 'studio_game/berserk_player'
 
 knuckleheads = StudioGame::Game.new('Knuckleheads')
 

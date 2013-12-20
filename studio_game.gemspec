@@ -1,10 +1,9 @@
 Gem::Specification.new do |s| 
   s.name         = "studio_game"
   s.version      = "1.0.0"
-  s.author       = "The Fragmatic Studio"
-  s.email        = "support@pragmaticstudio.com"
+  s.author       = "Fragmatic Studioz"
+  s.email        = "oicu81b4@gmail.com"
   s.summary      = "A fun, and entirely random, text-based game"
-  s.homepage     = "http://pragmaticstudio.com"
   s.description  = File.read(File.join(File.dirname(__FILE__), 'README'))
   
   s.files         = Dir["{bin,lib,spec}/**/*"] + %w(LICENSE README)
